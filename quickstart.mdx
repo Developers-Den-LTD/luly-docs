@@ -1,86 +1,96 @@
 ---
-title: 'Quickstart'
-description: 'Start building awesome documentation in under 5 minutes'
+title: "Starter guide"
+description: "Learn how to use Luly’s API in under five minutes"
 ---
 
-## Setup your development
+### Creating a developer account
 
-Learn how to update your docs locally and deploy them to the public.
+<img height="200" src="/images/placeholder.png" />
 
-### Edit and preview
+To get started, sign up on the [developer portal](https://portal.luly.ai/).
 
-<AccordionGroup>
-  <Accordion icon="github" title="Clone your docs locally">
-    During the onboarding process, we created a repository on your Github with
-    your docs content. You can find this repository on our
-    [dashboard](https://dashboard.mintlify.com). To clone the repository
-    locally, follow these
-    [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    in your terminal.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Preview changes">
-    Previewing helps you make sure your changes look as intended. We built a
-    command line interface to render these changes locally. 1. Install the
-    [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-    documentation changes locally with this command: ``` npm i -g mintlify ```
-    2. Run the following command at the root of your documentation (where
-    `mint.json` is): ``` mintlify dev ```
-  </Accordion>
-</AccordionGroup>
+Enter your phone number and verification code. Finally, once your developer portal loads, go to the `Send phone call` page.
 
-### Deploy your changes
+### Sending your first phone call
 
-<AccordionGroup>
+<img height="200" src="/images/placeholder.png" />
 
-<Accordion icon="message-bot" title="Install our Github app">
-  Our Github app automatically deploys your changes to your docs site, so you
-  don't need to manage deployments yourself. You can find the link to install on
-  your [dashboard](https://dashboard.mintlify.com). Once the bot has been
-  successfully installed, there should be a check mark next to the commit hash
-  of the repo.
-</Accordion>
-<Accordion icon="rocket" title="Push your changes">
-  [Commit and push your changes to
-  Git](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push)
-  for your changes to update in your docs site. If you push and don't see that
-  the Github app successfully deployed your changes, you can also manually
-  update your docs through our [dashboard](https://dashboard.mintlify.com).
-</Accordion>
+Although Luly is an API-first platform, the send phone call page provides a simple interface for quickly testing calls. On the left side you can adjust the call options and on the right hand side you can see how the code updates.
 
-</AccordionGroup>
+Once you’re satisfied with a call, copy the code on the right side (in Javascript, Python, or cURL) and add it to your application.
 
-## Update your docs
+<Steps>
+  <Step title="Enter your phone number">
+    In the ```Phone Number``` field,enter your own phone number.
+  </Step>
+  <Step title="Write your prompt">
+    For the task box either select one of the example prompts or write your own.
+    For more instrucionts about prompting your AI phone agent, read this [blog
+    post](https://portal.luly.ai/)
+  </Step>
+  <Step title="Send the call">
+    Scroll to the bottom of the page, and press the ```Send call``` button. Note
+    calls are charged at $0.12/minute, billed to the exact second.
+  </Step>
+</Steps>
+To send a phone call programatically, read the [API reference.](https://portal.luly.ai/)
 
-Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
+### Testing your phone agent
 
-<CardGroup>
+<img height="200" src="/images/placeholder.png" />
 
-<Card title="Style Your Docs" icon="paintbrush" href="/settings/global">
-  Add flair to your docs with personalized branding.
-</Card>
+Once you’ve sent your first phone call, the next step is to test and improve the outputs from your phone agent.
 
-<Card
-  title="Add API Endpoints"
-  icon="square-code"
-  href="/api-playground/configuration"
->
-  Implement your OpenAPI spec and enable API user interaction.
-</Card>
+One way to test your agent is to send yourself test calls. A faster way, however, is to use the Luly AI testing suite.
 
-<Card
-  title="Integrate Analytics"
-  icon="chart-mixed"
-  href="/analytics/supported-integrations"
->
-  Draw insights from user interactions with your documentation.
-</Card>
+<Steps>
+  <Step title="Set up the test suite">
+    Select the model and language and insert your current prompt into the task
+    box.
+  </Step>
+  <Step title="Write a message">
+    Start messaging your phone agent. Act like you’re the person receiving the
+    call, and purposefully ask edge-case questions to throw the phone agent off.
+  </Step>
+  <Step title="Update the prompt">
+    Based on the responses you receive, update the instructions in the prompt.
+  </Step>
+</Steps>
 
-<Card
-  title="Host on a Custom Domain"
-  icon="browser"
-  href="/settings/custom-domain/subdomain"
->
-  Keep your docs on your own website's subdomain.
-</Card>
+### Next Steps
 
+You now know how to send and test phone calls, but you’ve only scratched the surface of Luly’s capabilties.
+
+Areas for further exploration:
+
+<CardGroup cols={2}>
+  <Card
+    title="API Reference"
+    icon="palette"
+    href="https://mintlify.com/docs/settings/global"
+  >
+    Read the API reference.
+  </Card>
+  <Card
+    title="Custom tools"
+    icon="code"
+    href="https://mintlify.com/docs/api-playground/openapi"
+  >
+    Creating custom tools for interacting with external APIs, live, during phone
+    calls.
+  </Card>
+  <Card
+    title="Prompting guide"
+    icon="screwdriver-wrench"
+    href="https://mintlify.com/docs/components/accordion"
+  >
+    Learn how to prompt the exact behavior you want from your phone agent.
+  </Card>
+  <Card
+    title="Join the community"
+    icon="stars"
+    href="https://mintlify.com/customers"
+  >
+    See what people are building on Luly and get support from other users.
+  </Card>
 </CardGroup>
