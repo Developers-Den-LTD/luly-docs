@@ -118,6 +118,25 @@
         "api/outbound/purchase",
         "api/outbound/list"
       ]
+    },
+    {
+      "group": "Voices",
+      "pages": [
+        "api/voice/list",
+        "api/voice/details",
+        "api/voice/publishCloned",
+        "api/voice/audioSample"
+      ]
+    },
+    {
+      "group": "Custom Tools",
+      "pages": [
+        "api/customTool/create",
+        "api/customTool/update",
+        "api/customTool/delete",
+        "api/customTool/list",
+        "api/customTool/details"
+      ]
     }
 
   ],
