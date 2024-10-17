@@ -1,4 +1,7 @@
 {
+  "api": {
+    "baseUrl": "https://app.luly.ai/api/"
+  },
   "$schema": "https://mintlify.com/schema.json",
   "name": "Luly AI",
   "logo": {
@@ -28,39 +31,7 @@
   "tabs": [
     {
       "name": "V1 API Reference",
-      "url": "guide"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Community & support",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    },
-    {
-      "name": "AMHLB Prompting Guide",
-      "icon": "magnifying-glass",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Full Code Examples",
-      "icon": "code",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Zapier No-code integration",
-      "icon": "bolt",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Enterprise inquiries",
-      "icon": "question",
-      "url": "https://mintlify.com/docs"
+      "url": "api"
     }
   ],
   "navigation": [
@@ -99,6 +70,27 @@
         "basicTutorial/maxDuration",
         "basicTutorial/liveTransfer",
         "basicTutorial/webhooks"
+      ]
+    },
+    {
+      "group": "Basic",
+      "pages": [
+        "api/basic/sendCall",
+        "api/basic/sendCallPathways"
+      ]
+    },
+    {
+      "group": "Calls",
+      "pages": [
+        "api/calls/sendCall",
+        "api/calls/analyzeCall",
+        "api/calls/stopActiveCall",
+        "api/calls/stopAllActiveCalls",
+        "api/calls/listCalls",
+        "api/calls/callDetails",
+        "api/calls/eventStream",
+        "api/calls/audioRecording",
+        "api/calls/correctedTranscript"
       ]
     }
   ],
