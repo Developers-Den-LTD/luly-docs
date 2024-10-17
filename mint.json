@@ -102,6 +102,22 @@
         "api/vectorStores/listDetails",
         "api/vectorStores/deleteStore"
       ]
+    },
+    {
+      "group": "Inbound Numbers",
+      "pages": [
+        "api/inbound/purchase",
+        "api/inbound/update",
+        "api/inbound/list",
+        "api/inbound/details"
+      ]
+    },
+    {
+      "group": "Outbound Numbers",
+      "pages": [
+        "api/outbound/purchase",
+        "api/outbound/list"
+      ]
     }
 
   ],
