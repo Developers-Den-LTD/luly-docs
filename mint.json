@@ -92,7 +92,18 @@
         "api/calls/audioRecording",
         "api/calls/correctedTranscript"
       ]
+    },
+    {
+      "group": "Vector Stores",
+      "pages": [
+        "api/vectorStores/createStore",
+        "api/vectorStores/updateStore",
+        "api/vectorStores/listStore",
+        "api/vectorStores/listDetails",
+        "api/vectorStores/deleteStore"
+      ]
     }
+
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
