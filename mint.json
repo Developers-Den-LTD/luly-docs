@@ -165,6 +165,14 @@
         "api/campaigns/list",
         "api/campaigns/details"
       ]
+    },
+    {
+      "group": "Prompts",
+      "pages": [
+        "api/prompts/list",
+        "api/prompts/details",
+        "api/prompts/create"
+      ]
     }
 
   ],
