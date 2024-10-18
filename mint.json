@@ -156,6 +156,15 @@
         "api/twilioAccounts/upload",
         "api/twilioAccounts/deleteNumber"
       ]
+    },
+    {
+      "group": "Campaigns",
+      "pages": [
+        "api/campaigns/create",
+        "api/campaigns/stop",
+        "api/campaigns/list",
+        "api/campaigns/details"
+      ]
     }
 
   ],
