@@ -104,6 +104,43 @@
       ]
     },
     {
+      "group": "Conversational Pathways",
+      "pages": [
+        "api/pathways/getAll",
+        "api/pathways/get",
+        "api/pathways/create",
+        "api/pathways/update",
+        "api/pathways/delete",
+        {
+          "group": "Pathway Chat",
+          "pages": [
+            "api/pathways/chats/create",
+            "api/pathways/chats/chat"
+          ]
+        },
+        {
+          "group": "Pathway Versions",
+          "pages": [
+            "api/pathways/versions/get",
+            "api/pathways/versions/getSpecific",
+            "api/pathways/versions/create",
+            "api/pathways/versions/delete"
+          ]
+        },
+        {
+          "group": "Pathway Folders",
+          "pages": [
+            "api/pathways/fodlers/get",
+            "api/pathways/fodlers/getPathways",
+            "api/pathways/fodlers/create",
+            "api/pathways/fodlers/delete",
+            "api/pathways/fodlers/update",
+            "api/pathways/fodlers/move"
+          ]
+        }
+      ]
+    },
+    {
       "group": "Inbound Numbers",
       "pages": [
         "api/inbound/purchase",
@@ -172,6 +209,12 @@
         "api/prompts/list",
         "api/prompts/details",
         "api/prompts/create"
+      ]
+    },
+    {
+      "group": "Account",
+      "pages": [
+        "api/account/details"
       ]
     }
 
