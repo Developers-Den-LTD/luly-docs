@@ -137,6 +137,16 @@
         "api/customTool/list",
         "api/customTool/details"
       ]
+    },
+    {
+      "group": "Web Agents",
+      "pages": [
+        "api/webAgent/create",
+        "api/webAgent/update",
+        "api/webAgent/authorize",
+        "api/webAgent/delete",
+        "api/webAgent/list"
+      ]
     }
 
   ],
