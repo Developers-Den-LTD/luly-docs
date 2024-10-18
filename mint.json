@@ -147,6 +147,15 @@
         "api/webAgent/delete",
         "api/webAgent/list"
       ]
+    },
+    {
+      "group": "Custom Twilio Accounts",
+      "pages": [
+        "api/twilioAccounts/create",
+        "api/twilioAccounts/deleteKey",
+        "api/twilioAccounts/upload",
+        "api/twilioAccounts/deleteNumber"
+      ]
     }
 
   ],
