@@ -1,7 +1,7 @@
 ---
-title: 'Delete Pathway Version'
-api: 'DELETE /v1/{pathway_id}/versions/{version_id}'
-description: Send a message to a pathway and receive a response.
+title: 'Get All Folders'
+api: 'GET /v1/pathway/folders'
+description: Retrieves all folders for the authenticated user, including folder ID, name, and parent folder ID.
 ---
 
 ### Headers
@@ -10,29 +10,19 @@ description: Send a message to a pathway and receive a response.
   Your API key for authentication.
 </ParamField>
 
-
-### Path Parameters
-<ParamField path="pathway_id" type="string" required={true}>
-The ID of the pathway containing the version to be deleted.
-</ParamField>
-<ParamField path="version_id" type="string" required={true}>
-The ID of the version to be deleted.
-</ParamField>
-
-
-
-
-
-
-
-
 ### Response
 
-<ResponseField name="status" type="string">
-   The status of the operation (e.g., “success”).
+<ResponseField name="folders" type="array">
+   The unique identifier of the folder.
 </ResponseField>
-<ResponseField name="message" type="string">
+<ResponseField name="folders[].id" type="string">
   A message describing the result of the operation.
+</ResponseField>
+<ResponseField name="folders[].name" type="string">
+  The name of the folder.
+</ResponseField>
+<ResponseField name="folders[].parent_folder_id" type="string">
+  The ID of the parent folder, if applicable.
 </ResponseField>
 
 
