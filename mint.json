@@ -130,12 +130,12 @@
         {
           "group": "Pathway Folders",
           "pages": [
-            "api/pathways/fodlers/get",
-            "api/pathways/fodlers/getPathways",
-            "api/pathways/fodlers/create",
-            "api/pathways/fodlers/delete",
-            "api/pathways/fodlers/update",
-            "api/pathways/fodlers/move"
+            "api/pathways/folders/get",
+            "api/pathways/folders/getPathways",
+            "api/pathways/folders/create",
+            "api/pathways/folders/delete",
+            "api/pathways/folders/update",
+            "api/pathways/folders/move"
           ]
         }
       ]
