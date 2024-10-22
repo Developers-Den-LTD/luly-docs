@@ -212,6 +212,18 @@
       ]
     },
     {
+      "group": "Batches",
+      "pages": [
+        "api/batches/send",
+        "api/batches/analyzeBatch",
+        "api/batches/stop",
+        "api/batches/list",
+        "api/batches/detail",
+        "api/batches/retrieve"
+
+      ]
+    },
+    {
       "group": "Account",
       "pages": [
         "api/account/details"
