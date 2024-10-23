@@ -236,14 +236,7 @@
         "api/sms/webhook"
 
       ]
-    },
-    {
-      "group": "Account",
-      "pages": [
-        "api/account/details"
-      ]
     }
-
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
