@@ -224,6 +224,20 @@
       ]
     },
     {
+      "group": "SMS",
+      "pages": [
+        "api/sms/registration",
+        "api/sms/status",
+        "api/sms/update",
+        "api/sms/clear",
+        "api/sms/conversationAnalysis",
+        "api/sms/messages",
+        "api/sms/replyMethod",
+        "api/sms/webhook"
+
+      ]
+    },
+    {
       "group": "Account",
       "pages": [
         "api/account/details"
