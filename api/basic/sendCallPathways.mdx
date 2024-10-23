@@ -1,7 +1,7 @@
 ---
 title: 'Send Call using Pathways (Simple)'
 api: 'POST /v1/calls'
-description: Send an AI phone call with your own conversational pathway agent! <br/> Links - [Video Tutorial](https://portal.luly.ai/) | [Step-by-step web tutorial](https://portal.luly.ai/)
+description: Send an AI phone call with your own conversational pathway agent! <br/> Links - [Video Tutorial](https://www.twilio.com/docs/glossary/what-e164#examples-of-e164-numbers) | [Step-by-step web tutorial](https://docs.bland.ai/tutorials/pathways)
 ---
 
 ### Headers
@@ -17,7 +17,7 @@ description: Send an AI phone call with your own conversational pathway agent! <
 <ParamField body="phone_number" type="string" required={true}>
     The phone number to call. Country code defaults to +1 (US) if not specified.
 
-    Formatting is flexible, however for the most predictable results use the [E.164](https://portal.luly.ai/) format.
+    Formatting is flexible, however for the most predictable results use the [E.164](https://www.twilio.com/docs/glossary/what-e164#examples-of-e164-numbers) format.
 
     <Accordion title="Formatting Examples">
     Expected/Ideal Format
@@ -42,11 +42,11 @@ description: Send an AI phone call with your own conversational pathway agent! <
 <ParamField body="pathway_id" type="string" required={true}>
     Follows the conversational pathway you created to guide the conversation.
 
-    You can access your pathway_id by clicking on the ‘Copy ID’ button on your pathways [here](https://portal.luly.ai/). If you don’t have any pathways, click the ‘Create Pathway’ button to create one!
+    You can access your pathway_id by clicking on the ‘Copy ID’ button on your pathways [here](https://app.bland.ai/login). If you don’t have any pathways, click the ‘Create Pathway’ button to create one!
     <Accordion title="Conversational Pathway Tutorial">
-        [Video Tutorial](https://portal.luly.ai/)
+        [Video Tutorial](https://www.loom.com/share/5ce5a84ec97149efad7cf5eff66a93c5?sid=697dc436-53cf-494c-a3e9-a25031df6496)
 
-        [Step by step Web Tutorial](https://portal.luly.ai/)
+        [Step by step Web Tutorial](https://docs.bland.ai/tutorials/pathways)
     </Accordion>
 </ParamField>
 
