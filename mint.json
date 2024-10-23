@@ -1,6 +1,6 @@
 {
   "api": {
-    "baseUrl": "https://app.luly.ai/api/"
+    "baseUrl": "https://portal.luly.ai/api/"
   },
   "$schema": "https://mintlify.com/schema.json",
   "name": "Luly AI",
