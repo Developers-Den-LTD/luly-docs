@@ -15,9 +15,9 @@ Some examples of what Dynamic Data enables:
 - Handle real-time data like status updates or prices
 
 <Accordion title="Expand to see an example in action">
-    Here’s how to make an [Inbound Agent](https://portal.luly.ai/) remember past conversations they’ve had with callers. There’s a lot of other useful information we can integrate, like how long ago that call occurred and the call’s duration.
+    Here’s how to make an [Inbound Agent](https://docs.luly.ai/api-reference/inbound/update) remember past conversations they’ve had with callers. There’s a lot of other useful information we can integrate, like how long ago that call occurred and the call’s duration.
    
-    ```Endpoint: POST https://api.bland.ai/v1/inbound/<<INBOUND NUMBER>>```
+    ```Endpoint: POST https://api.luly.ai/v1/inbound/<<INBOUND NUMBER>>```
 
     ```javascript
     {
@@ -194,7 +194,7 @@ Rather than using the full response, you can extract specific data from the resp
 
 Then `$.bpi.USD.rate` would return `9,000.00`.
 
-More complex filters can be used if they follow the **JSONPath format**.
+More complex filters can be used if they follow the [JSONPath format](https://docs.hevodata.com/sources/engg-analytics/streaming/rest-api/writing-jsonpath-expressions/).
 
 ## Variables as Parameters
 
@@ -206,7 +206,7 @@ Once defined with `response_data` , variables can be used nearly anywhere.
 
 Afterwards, in your webhooks and when retrieving call transcripts, the `variables` field will contain all variables that were defined during the call.
 
-By far, the easiest way to test out your `dynamic_data` configuration is via the /dynamic_data/test endpoint. It returns the original configuration, every raw response, and the final variables after parsing is applied.
+By far, the easiest way to test out your `dynamic_data` configuration is via the [/dynamic_data/test](https://docs.luly.ai/api-reference/basic/sendCall) endpoint. It returns the original configuration, every raw response, and the final variables after parsing is applied.
 
 ## Chaining Requests
 
