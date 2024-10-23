@@ -30,8 +30,8 @@
   },
   "tabs": [
     {
-      "name": "V1 API Reference",
-      "url": "api"
+      "name": "api-reference",
+      "url": "api-reference"
     }
   ],
   "navigation": [
@@ -75,67 +75,67 @@
     {
       "group": "Basic",
       "pages": [
-        "api/basic/sendCall",
-        "api/basic/sendCallPathways"
+        "api-reference/basic/sendCall",
+        "api-reference/basic/sendCallPathways"
       ]
     },
     {
       "group": "Calls",
       "pages": [
-        "api/calls/sendCall",
-        "api/calls/analyzeCall",
-        "api/calls/stopActiveCall",
-        "api/calls/stopAllActiveCalls",
-        "api/calls/listCalls",
-        "api/calls/callDetails",
-        "api/calls/eventStream",
-        "api/calls/audioRecording",
-        "api/calls/correctedTranscript"
+        "api-reference/calls/sendCall",
+        "api-reference/calls/analyzeCall",
+        "api-reference/calls/stopActiveCall",
+        "api-reference/calls/stopAllActiveCalls",
+        "api-reference/calls/listCalls",
+        "api-reference/calls/callDetails",
+        "api-reference/calls/eventStream",
+        "api-reference/calls/audioRecording",
+        "api-reference/calls/correctedTranscript"
       ]
     },
     {
       "group": "Vector Stores",
       "pages": [
-        "api/vectorStores/createStore",
-        "api/vectorStores/updateStore",
-        "api/vectorStores/listStore",
-        "api/vectorStores/listDetails",
-        "api/vectorStores/deleteStore"
+        "api-reference/vectorStores/createStore",
+        "api-reference/vectorStores/updateStore",
+        "api-reference/vectorStores/listStore",
+        "api-reference/vectorStores/listDetails",
+        "api-reference/vectorStores/deleteStore"
       ]
     },
     {
       "group": "Conversational Pathways",
       "pages": [
-        "api/pathways/getAll",
-        "api/pathways/get",
-        "api/pathways/create",
-        "api/pathways/update",
-        "api/pathways/delete",
+        "api-reference/pathways/getAll",
+        "api-reference/pathways/get",
+        "api-reference/pathways/create",
+        "api-reference/pathways/update",
+        "api-reference/pathways/delete",
         {
           "group": "Pathway Chat",
           "pages": [
-            "api/pathways/chats/create",
-            "api/pathways/chats/chat"
+            "api-reference/pathways/chats/create",
+            "api-reference/pathways/chats/chat"
           ]
         },
         {
           "group": "Pathway Versions",
           "pages": [
-            "api/pathways/versions/get",
-            "api/pathways/versions/getSpecific",
-            "api/pathways/versions/create",
-            "api/pathways/versions/delete"
+            "api-reference/pathways/versions/get",
+            "api-reference/pathways/versions/getSpecific",
+            "api-reference/pathways/versions/create",
+            "api-reference/pathways/versions/delete"
           ]
         },
         {
           "group": "Pathway Folders",
           "pages": [
-            "api/pathways/folders/get",
-            "api/pathways/folders/getPathways",
-            "api/pathways/folders/create",
-            "api/pathways/folders/delete",
-            "api/pathways/folders/update",
-            "api/pathways/folders/move"
+            "api-reference/pathways/folders/get",
+            "api-reference/pathways/folders/getPathways",
+            "api-reference/pathways/folders/create",
+            "api-reference/pathways/folders/delete",
+            "api-reference/pathways/folders/update",
+            "api-reference/pathways/folders/move"
           ]
         }
       ]
@@ -143,97 +143,97 @@
     {
       "group": "Inbound Numbers",
       "pages": [
-        "api/inbound/purchase",
-        "api/inbound/update",
-        "api/inbound/list",
-        "api/inbound/details"
+        "api-reference/inbound/purchase",
+        "api-reference/inbound/update",
+        "api-reference/inbound/list",
+        "api-reference/inbound/details"
       ]
     },
     {
       "group": "Outbound Numbers",
       "pages": [
-        "api/outbound/purchase",
-        "api/outbound/list"
+        "api-reference/outbound/purchase",
+        "api-reference/outbound/list"
       ]
     },
     {
       "group": "Voices",
       "pages": [
-        "api/voice/list",
-        "api/voice/details",
-        "api/voice/publishCloned",
-        "api/voice/audioSample"
+        "api-reference/voice/list",
+        "api-reference/voice/details",
+        "api-reference/voice/publishCloned",
+        "api-reference/voice/audioSample"
       ]
     },
     {
       "group": "Custom Tools",
       "pages": [
-        "api/customTool/create",
-        "api/customTool/update",
-        "api/customTool/delete",
-        "api/customTool/list",
-        "api/customTool/details"
+        "api-reference/customTool/create",
+        "api-reference/customTool/update",
+        "api-reference/customTool/delete",
+        "api-reference/customTool/list",
+        "api-reference/customTool/details"
       ]
     },
     {
       "group": "Web Agents",
       "pages": [
-        "api/webAgent/create",
-        "api/webAgent/update",
-        "api/webAgent/authorize",
-        "api/webAgent/delete",
-        "api/webAgent/list"
+        "api-reference/webAgent/create",
+        "api-reference/webAgent/update",
+        "api-reference/webAgent/authorize",
+        "api-reference/webAgent/delete",
+        "api-reference/webAgent/list"
       ]
     },
     {
       "group": "Custom Twilio Accounts",
       "pages": [
-        "api/twilioAccounts/create",
-        "api/twilioAccounts/deleteKey",
-        "api/twilioAccounts/upload",
-        "api/twilioAccounts/deleteNumber"
+        "api-reference/twilioAccounts/create",
+        "api-reference/twilioAccounts/deleteKey",
+        "api-reference/twilioAccounts/upload",
+        "api-reference/twilioAccounts/deleteNumber"
       ]
     },
     {
       "group": "Campaigns",
       "pages": [
-        "api/campaigns/create",
-        "api/campaigns/stop",
-        "api/campaigns/list",
-        "api/campaigns/details"
+        "api-reference/campaigns/create",
+        "api-reference/campaigns/stop",
+        "api-reference/campaigns/list",
+        "api-reference/campaigns/details"
       ]
     },
     {
       "group": "Prompts",
       "pages": [
-        "api/prompts/list",
-        "api/prompts/details",
-        "api/prompts/create"
+        "api-reference/prompts/list",
+        "api-reference/prompts/details",
+        "api-reference/prompts/create"
       ]
     },
     {
       "group": "Batches",
       "pages": [
-        "api/batches/send",
-        "api/batches/analyzeBatch",
-        "api/batches/stop",
-        "api/batches/list",
-        "api/batches/detail",
-        "api/batches/retrieve"
+        "api-reference/batches/send",
+        "api-reference/batches/analyzeBatch",
+        "api-reference/batches/stop",
+        "api-reference/batches/list",
+        "api-reference/batches/detail",
+        "api-reference/batches/retrieve"
 
       ]
     },
     {
       "group": "SMS",
       "pages": [
-        "api/sms/registration",
-        "api/sms/status",
-        "api/sms/update",
-        "api/sms/clear",
-        "api/sms/conversationAnalysis",
-        "api/sms/messages",
-        "api/sms/replyMethod",
-        "api/sms/webhook"
+        "api-reference/sms/registration",
+        "api-reference/sms/status",
+        "api-reference/sms/update",
+        "api-reference/sms/clear",
+        "api-reference/sms/conversationAnalysis",
+        "api-reference/sms/messages",
+        "api-reference/sms/replyMethod",
+        "api-reference/sms/webhook"
 
       ]
     }
