@@ -90,8 +90,6 @@ This helps you to ensure that the user provides the necessary information before
 
 ## Global Nodes
 
-<img src="/images/global_node.png" />
-
 Global Nodes take precendence over the condition decisions made by the agent. You can treat a global node as a node, that every other node in the pathway has a pathway to, with the label as the ‘Global Pathway Label’.
 
 Using the Reservation Booking Example, if the user were to ask a question like ‘What are the opening hours of the restaurant’ when the agent is at the ‘Ask for reservation info’ node, the condition decision would not be met as the user did not provide the date, time, and number of guests for the reservation. However, the pathway label would be ‘user has a question about the restaurant’s hours or location’, which links to a Global Node. As Global Nodes take precedence over the condition decision, the agent would then move to the ‘Global Node’ named ‘Restaurant Questions’ and provide the user with the opening hours of the restaurant. After providing the user with the opening hours of the restaurant, the agent would then automatically return to the ‘Ask for reservation info’ node, and continue with the flow of the conversation.
@@ -173,8 +171,6 @@ Each node can be configured to be a Global Node. Global Nodes are nodes that are
 After entering a Global Node, the agent will execute the instructions inside the Global Node, and then automatically return to the node it was at before entering the Global Node, so it can continue with the flow of the conversation.
 
 In a Global Node, you can also forward the agent to another node, by toggling the ‘Enable Forwarding’, which will allow you to select the node you want to move the agent to. This is useful if you want to move the agent to a existing node for a certain scenario, which could happen at any point in the conversation.
-
-<img src="/images/node8.png" />
 
 ## Transfer Call Node
 
@@ -272,8 +268,6 @@ While Conversational Pathways gives you a lot greater control compared to the re
 Upon triggering and testing a call with your pathway using the ‘Chat with Pathway’ button, or sending a call, you will be able to see the live call logs.
 
 If you see a decision that the agent made that you do not agree with, or if the agent is hallucinating, you can fine-tune the decision the agent makes by clicking on the ```Edit``` button on the ```PATHWAY DECISION INFO``` block.
-
-<img src="/images/node17.png" />
 
 Upon doing so, you will be able to see the decisions the agent made for the condition, the pathway it took, and the dialogue it generated. You can then fine-tune the agent by changing the dialogue, the condition, or the pathway the agent took.
 
